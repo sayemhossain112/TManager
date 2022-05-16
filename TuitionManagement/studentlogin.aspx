@@ -10,7 +10,7 @@
                   <div class="row">
                      <div class="col">
                         <center>
-                           <img width="150px" src="img/graduate-student-icon-vector-6402261.jpg"/>
+                           <img width="100px" src="img/graduate-student-icon-vector-6402261.jpg"/>
                         </center>
                      </div>
                   </div>

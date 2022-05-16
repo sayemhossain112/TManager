@@ -48,6 +48,86 @@ section {
 
 .card {
     box-shadow: 0 0 10px #9ea8b578;
+    margin-top:20px;
 }
 
 
+
+
+
+.flBtnCntr {
+    display: inline-flex;
+    position: fixed;
+    top: 100px;
+    left: 50px
+}
+
+.flBtnBox {
+    outline: 0;
+    border: 0;
+    border-radius: 50%;
+    background-color: #2978d3;
+    color: #fff;
+    cursor: pointer
+}
+
+    .flBtnBox.big {
+        background-color: #2978d3;
+        font-size: 30px;
+        height: 50px;
+        width: 50px
+    }
+
+    .flBtnBox.small {
+        animation: showBtn 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+     
+        background-color: #363636;
+        margin: 0 5px;
+        font-size: 12px;
+        height: 30px;
+        width: auto;
+        padding: 10px;
+        border-radius: 5px;
+        color:white;
+    }
+
+        .flBtnBox.small:nth-child(2) {
+            animation-delay: 150ms
+        }
+
+        .flBtnBox.small:nth-child(3) {
+            animation-delay: 300ms
+        }
+
+@keyframes showBtn {
+    0% {
+        transform: scale(0)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+.flBtnBox.big:hover {
+    box-shadow: 0 0 10px rgba(41,120,211,0.4)
+}
+
+.flBtnBox.small:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-decoration:none;
+}
+
+.flBtns {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    display: none;
+    padding: 0 5px;
+    align-items: center
+}
+
+.flBtnCntr:hover .flBtns {
+    display: inline-flex
+}
