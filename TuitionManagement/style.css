@@ -1,0 +1,53 @@
+﻿/*Sayem*/
+
+.navbar.navbar-expand-lg.navbar-light {
+    background: white;
+    box-shadow: 0 0 10px #b3b3b3;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nav-item.active {
+    margin-right: 10px;
+}
+.hero-section img {
+    width: 120%;
+}
+
+
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hero-section {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.aside-text h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+
+.aside-text p {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.home-btn {
+    width: auto;
+    padding: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 18px;
+}
+
+.card {
+    box-shadow: 0 0 10px #9ea8b578;
+}
+
+

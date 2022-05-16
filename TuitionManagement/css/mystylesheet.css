@@ -1,0 +1,32 @@
+﻿.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: #0000FF;
+    }
+
+#footer1 {
+    background: #000000;
+}
+
+#footer2 {
+    background: #C0C0C0;
+}
+
+
+ 
+
+
+/*Sayem*/
+
+.navbar.navbar-expand-lg.navbar-light {
+    background: white;
+    box-shadow: 0 0 10px #b3b3b3;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
